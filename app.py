@@ -530,7 +530,7 @@ Give:
 elif st.session_state.page == "mock":
     st.header("📝 Mock Test")
 
-    with open("Final_output_updated_inserted.html", "r", encoding="utf-8") as f:
+    with open("Final output.html", "r", encoding="utf-8") as f:
         html_code = f.read()
 
     components.html(html_code, height=900, scrolling=True)
