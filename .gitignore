@@ -1,1 +1,4 @@
-
+data/
+vector_db/
+__pycache__/
+*.pyc
